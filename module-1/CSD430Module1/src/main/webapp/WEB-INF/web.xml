@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Name:        Garvin Stewart
+    Date:        October 25, 2026
+    Assignment:  CSD 430 Module 1 - Installation & Configuration
+    Purpose:     Deployment descriptor that sets index.jsp as the application's start page.
+-->
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd"
+         version="6.0">
+
+    <display-name>CSD430Module1</display-name>
+
+    <!-- Load index.jsp when the context root is requested -->
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+
+</web-app>
